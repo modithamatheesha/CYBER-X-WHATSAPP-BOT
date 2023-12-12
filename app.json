@@ -14,22 +14,22 @@
         "SESSION_ID": {
             "description": "Type the Session-ID you got from scaning QR",
             "required": true,
-            "value": ""
+            "value": "cyber-x@;;;oU1x3TwQ#GeylLrrPIYxf9Acxs9Y4Ep_SbrOYKTCtueemTCZgFQ4"
         },
         "HEROKU_API_KEY": {
             "description": "Enter your heroku account api key",
-            "required": true,
+            "required": false,
             "value": ""
         },
         "HEROKU_APP_NAME": {
             "description": "Enter you pushed app Name",
-            "required": true,
+            "required": false,
             "value": ""
         },
         "WORK_TYPE": {
             "description": "Add the worktype of the Bot ( private , public , only_group )",
             "required": true,
-            "value": "private"
+            "value": "public"
         }
     },
     "buildpacks": [
